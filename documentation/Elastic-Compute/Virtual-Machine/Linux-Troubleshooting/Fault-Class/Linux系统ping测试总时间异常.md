@@ -1,4 +1,4 @@
-# Linux系统ping测试总时间异常
+**Linux系统ping测试总时间异常**
 
 
 
@@ -8,7 +8,7 @@ ping 目标地址时延时都不高，但总时间却非常高。  比如，下�
 
 *ping www.jdcloud.com -c 4*
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9Fping%E6%B5%8B%E8%AF%95%E6%80%BB%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B801.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9Fping%E6%B5%8B%E8%AF%95%E6%80%BB%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B801.png)
 
 **原因分析：**
 
@@ -22,6 +22,7 @@ ping 目标地址时延时都不高，但总时间却非常高。  比如，下�
 
 *ping www.jdcloud.com -c 4 -i 0.1*
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9Fping%E6%B5%8B%E8%AF%95%E6%80%BB%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B802.png)
+
+![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9Fping%E6%B5%8B%E8%AF%95%E6%80%BB%E6%97%B6%E9%97%B4%E5%BC%82%E5%B8%B802.png)
 
 如无法解决您的问题，请向我们提工单。
