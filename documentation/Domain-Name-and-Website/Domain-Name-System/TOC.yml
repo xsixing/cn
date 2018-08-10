@@ -6,18 +6,33 @@
     - name: 产品概述
       herf: Introduction/产品概述.md
     - name: 核心概念
+<<<<<<< HEAD
+      herf: Introduction/Core-Concepts.md
+=======
       herf: Introduction/核心概念.md
+>>>>>>> edit
     - name: 产品优势
       herf: Introduction/产品优势.md
     - name: 产品功能
       herf: Introduction/产品功能.md
     - name: 产品规格
+<<<<<<< HEAD
+      herf: Introduction/Specification.md
+    - name: 应用场景 
+      herf: Introduction/Application-Scenarios.md    
+- name: 入门指南
+  items:
+    - name: 创建信息模板
+      herf: Getting-Started/创建信息模板.md
+    - name: 注册域名
+=======
       herf: Introduction/产品规格.md
 - name: 入门指南
   items:
     - name: 创建信息模版
       herf: Getting-Started/创建信息模版.md
     - name: 注册域名.md
+>>>>>>> edit
       herf: Getting-Started/注册域名.md
 - name: 操作指南
   items:
@@ -28,7 +43,11 @@
         - name: 域名转出
           herf: Operation-Guide/Domain-Management/域名转出.md
         - name: 安全设置
+<<<<<<< HEAD
+          herf: Operation-Guide/Domain-Management/安全设置.md
+=======
           herf: Operation-Guide/Domain-Management/安全设置.md      
+>>>>>>> edit
         - name: 解析域名
           herf: Operation-Guide/Domain-Management/解析域名.md
         - name: 过户域名
@@ -36,11 +55,30 @@
     - name: 信息模板
       items:
         - name: 创建信息模版
+<<<<<<< HEAD
+          herf: Operation-Guide/Information-Template/创建信息模版.md          
+    - name: 域名转出
+      items:
+        - name: 创建账号
+          herf: Operation-Guide/Domain-Transfer/转入域名.md
+- name: 最佳实践
+  items:
+  - name: 使用MongoDB的固定集合
+    herf: Best-Practices/Capped-Collections.md
+  - name: MongoDB 开启慢日志分析
+    herf: Best-Practices/MongoDB-Profile.md
+  - name: 公网连接MongoDB实例
+    herf: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
+- name: 教程
+  items:
+  status: 0
+=======
           herf: Operation-Guide/Information-Template/创建信息模版.md
     - name: 域名转入
       items:
         - name: 转入域名
           herf: Operation-Guide/Domain-Transfer/转入域名.md        
+>>>>>>> edit
 - name: 问题排查
   items:
   - name: 域名与反向解析
