@@ -12,10 +12,9 @@ A：IP高防支持TCP、UDP、HTTP、HTTPS协议的转发配置，并支持webso
 
 A：两种转发配置对应不同的应用场景和使用协议，具体区别如下：
 - 非网站类：主要应用于游戏、电商、金融、APP等业务场景；支持协议：TCP协议，UDP协议。
+提供3到4层SYN Flood、ACK Flood、ICMP Flood、UDP Flood、NTP Flood 、SSDP Flood等攻击防护。应用层的DDoS防护可以定制支持。
 
-提供3到4层SYN Flood、ACK Flood、ICMP Flood、UDP Flood、NTP Flood 、SSDP Flood等攻击防护。不支持应用层的DDoS防护。
 - 网站类：主要应用于网站类业务。支持协议：http/https协议，支持websocket接入，支持80和443以及非标端口的接入。
-
 除了提供SYN Flood、ACK Flood、ICMP Flood、UDP Flood、NTP Flood 、SSDP Flood等攻击防护，还支持CC攻击、HTTP Flood等应用层攻击防护。
 
 **Q：IP高防支持哪些线路？**
@@ -43,7 +42,7 @@ IP高防默认赠送100M业务带宽，如超过业务带宽，会触发流量�
 
 **Q：接入IP高防的域名有什么要求？**
 
-A：根据工信部的相关法律规定，IP高防仅对已备案的域名进行安全防护。如果域名未备案，将不能提供IP高防服务。
+A：根据工信部的相关法律规定，IP高防仅对已备案的域名进行安全防护。
 
 **Q：CC防护是针对什么业务的？**
 
